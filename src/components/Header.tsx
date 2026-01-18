@@ -57,10 +57,10 @@ export default function Header() {
         <div className="mt-20 flex flex-col gap-6">
           {/* Hauptnavigation */}
           <div className="flex flex-col gap-4 mb-4 border-b border-white/10 pb-8">
-            <Link to="/#products" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.products')}</Link>
-            <Link to="/#subscriptions" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.subscriptions')}</Link>
-            <Link to="/#about" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.about')}</Link>
-            <Link to="/#contact" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.contact')}</Link>
+            <Link to="/produkte" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.products')}</Link>
+            <Link to="/abo" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.subscriptions')}</Link>
+            <Link to="/ueber" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.about')}</Link>
+            <Link to="/kontakt" onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">{t('menu.contact')}</Link>
           </div>
 
           {/* Language Switcher */}
@@ -86,10 +86,10 @@ export default function Header() {
           <div className="w-full h-px bg-white/10 mb-2"></div>
 
           {/* Main Navigation */}
-          <Link to="/#products" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.products')}</Link>
-          <Link to="/#subscriptions" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.subscriptions')}</Link>
-          <Link to="/#about" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.about')}</Link>
-          <Link to="/#contact" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.contact')}</Link>
+          <Link to="/produkte" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.products')}</Link>
+          <Link to="/abo" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.subscriptions')}</Link>
+          <Link to="/ueber" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.about')}</Link>
+          <Link to="/kontakt" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.contact')}</Link>
           
           <div className="mt-auto pt-8">
             <Link to="/login" onClick={closeMenu} className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-white/50 hover:text-white transition-colors border border-white/10 px-6 py-3 rounded hover:border-[#D4AF37]">
