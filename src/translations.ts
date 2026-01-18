@@ -257,7 +257,6 @@ export function useTranslation() {
     };
   }, []);
 
-  console.log('useTranslation', lang);
   const t = (key: keyof Translations) => {
     const dict = translations[lang] || translations.de;
     return dict[key] || key;

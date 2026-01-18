@@ -1,4 +1,4 @@
-import { useTranslation } from '../src_translations';
+import { useTranslation } from '../translations';
 
 export default function Impressum() {
   const { t } = useTranslation();

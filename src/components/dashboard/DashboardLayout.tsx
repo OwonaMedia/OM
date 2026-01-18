@@ -1,7 +1,7 @@
 // Dashboard Layout mit Sidebar
 // TODO: In Schritt 5 implementieren
 
-import type { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import Sidebar from './Sidebar';
 
 interface DashboardLayoutProps {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useTranslation } from '../src_translations';
+import { useTranslation } from '../translations';
 
 export default function CookieBanner() {
   const { t } = useTranslation();

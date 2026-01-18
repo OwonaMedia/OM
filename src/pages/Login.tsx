@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useTranslation } from '../src_translations';
+import { useTranslation } from '../translations';
 
 export default function Login() {
   const { t } = useTranslation();
@@ -58,9 +58,13 @@ export default function Login() {
             disabled={loading}
             className="w-full bg-black text-white py-4 rounded-lg uppercase tracking-widest text-xs hover:bg-[#D4AF37] hover:text-white transition-all disabled:opacity-50"
           >
-            {loading ? 'Lädt...' : t('login.btn')}
+            {loading ? '...' : t('login.btn')}
           </button>
         </form>
+        
+        <div className="text-center mt-8">
+          <a href="/" className="text-xs text-gray-300 hover:text-black transition-colors">← {t('brand')} Home</a>
+        </div>
       </div>
     </div>
   );

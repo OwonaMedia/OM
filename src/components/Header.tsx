@@ -1,14 +1,11 @@
 import { useState, useEffect } from 'react';
-import { useTranslation } from '../src_translations';
-import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import { useTranslation } from '../translations';
 
 export default function Header() {
-
   const { t, lang, setLang } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const location = useLocation();
 
   // Scroll effect
   useEffect(() => {
@@ -22,11 +19,6 @@ export default function Header() {
     if (isOpen) document.body.style.overflow = 'hidden';
     else document.body.style.overflow = '';
   }, [isOpen]);
-
-  // Schließe Sidebar bei Routenwechsel
-  useEffect(() => {
-    setIsOpen(false);
-  }, [location.pathname]);
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
@@ -63,20 +55,13 @@ export default function Header() {
         className={`fixed top-0 right-0 w-full md:max-w-md h-full bg-[#0a0a0a] z-[115] flex flex-col p-12 md:p-20 gap-8 transition-transform duration-500 border-l border-white/10 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <div className="mt-20 flex flex-col gap-6">
-          {/* Navigation Links */}
+          {/* Placeholder Links */}
           <div className="flex flex-col gap-4 mb-4 border-b border-white/10 pb-8">
-            <Link to={{ pathname: '/', hash: '#products' }} onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">
-              {t('menu.products')}
-            </Link>
-            <Link to={{ pathname: '/', hash: '#subscriptions' }} onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">
-              {t('menu.subscriptions')}
-            </Link>
-            <Link to={{ pathname: '/', hash: '#about' }} onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">
-              {t('menu.about')}
-            </Link>
-            <Link to={{ pathname: '/', hash: '#contact' }} onClick={closeMenu} className="text-white/80 text-lg hover:text-[#D4AF37] uppercase tracking-widest transition-colors">
-              {t('menu.contact')}
-            </Link>
+            {['Link 1', 'Link 2', 'Link 3', 'Link 4'].map((item, i) => (
+              <span key={i} className="text-white/30 text-sm hover:text-white cursor-not-allowed uppercase tracking-widest transition-colors">
+                {item}
+              </span>
+            ))}
           </div>
 
           {/* Language Switcher */}
@@ -101,11 +86,11 @@ export default function Header() {
           
           <div className="w-full h-px bg-white/10 mb-2"></div>
 
-          {/* Main Navigation echte Seiten */}
-          <Link to="/" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.products')}</Link>
-          <Link to="/impressum" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('footer.impressum')}</Link>
-          <Link to="/datenschutz" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('footer.privacy')}</Link>
-          <Link to="/agb" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('footer.terms')}</Link>
+          {/* Main Navigation */}
+          <Link to="/#products" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.products')}</Link>
+          <Link to="/#subscriptions" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.subscriptions')}</Link>
+          <Link to="/#about" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.about')}</Link>
+          <Link to="/#contact" onClick={closeMenu} className="text-3xl font-light hover:text-[#D4AF37] transition-colors">{t('menu.contact')}</Link>
           
           <div className="mt-auto pt-8">
             <Link to="/login" onClick={closeMenu} className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-white/50 hover:text-white transition-colors border border-white/10 px-6 py-3 rounded hover:border-[#D4AF37]">

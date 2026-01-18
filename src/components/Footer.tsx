@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useTranslation } from '../src_translations';
+import { useTranslation } from '../translations';
 
 export default function Footer() {
   const { t } = useTranslation();
