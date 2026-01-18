@@ -1,6 +1,8 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import Layout from './components/layout/Layout';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
 import Home from './pages/Home';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
@@ -22,26 +24,32 @@ function ScrollToTop() {
 
 export default function App() {
   const location = useLocation();
-  // Dashboard gets its own layout, all others use Layout
+  // Dashboard and Login generally don't use the standard Header/Footer
   const isDashboard = location.pathname.startsWith('/dashboard');
+  const isLogin = location.pathname === '/login';
+  const showStandardLayout = !isDashboard && !isLogin;
 
   return (
     <>
       <ScrollToTop />
+
+      {showStandardLayout && <Header />}
+      
       <Routes>
-        {/* All main pages wrapped in Layout for consistent Header/Footer/CookieBanner */}
-        <Route path="/" element={<Layout><Home /></Layout>} />
-        <Route path="/impressum" element={<Layout darkBg={false}><Impressum /></Layout>} />
-        <Route path="/datenschutz" element={<Layout darkBg={false}><Datenschutz /></Layout>} />
-        <Route path="/agb" element={<Layout darkBg={false}><AGB /></Layout>} />
-        <Route path="/produkte" element={<Layout darkBg={false}><Produkte /></Layout>} />
-        <Route path="/abo" element={<Layout darkBg={false}><Abo /></Layout>} />
-        <Route path="/ueber" element={<Layout darkBg={false}><Ueber /></Layout>} />
-        <Route path="/kontakt" element={<Layout darkBg={false}><Kontakt /></Layout>} />
-        {/* Login and Dashboard can use their own layout or be standalone */}
+        <Route path="/" element={<Home />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/agb" element={<AGB />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/produkte" element={<Produkte />} />
+        <Route path="/abo" element={<Abo />} />
+        <Route path="/ueber" element={<Ueber />} />
+        <Route path="/kontakt" element={<Kontakt />} />
       </Routes>
+
+      {/* Footer wird jetzt im Layout gerendert */}
+      <CookieBanner />
     </>
   );
 }
