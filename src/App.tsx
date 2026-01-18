@@ -48,7 +48,7 @@ export default function App() {
         <Route path="/kontakt" element={<Kontakt />} />
       </Routes>
 
-      {showStandardLayout && <Footer />}
+      {/* Footer wird jetzt im Layout gerendert */}
       <CookieBanner />
     </>
   );
