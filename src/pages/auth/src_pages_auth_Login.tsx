@@ -1,7 +1,7 @@
 // Login Seite
 // TODO: In Schritt 5 implementieren
 
-import Layout from '../../components/layout/src_components_layout_Layout';
+import Layout from '../../components/layout/Layout';
 
 export default function Login() {
   return (

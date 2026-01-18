@@ -1,7 +1,7 @@
 // AGB Seite
 // TODO: In Schritt 4 implementieren
 
-import Layout from '../../components/layout/src_components_layout_Layout';
+import Layout from '../../components/layout/Layout';
 
 export default function AGB() {
   return (
