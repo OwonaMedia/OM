@@ -22,7 +22,6 @@ export default function Layout({ children, darkBg = true }: LayoutProps) {
         {children}
       </main>
 
-      <Footer />
       <CookieBanner />
     </div>
   );

@@ -1,5 +1,5 @@
 import Layout from '../components/layout/Layout';
-import { useTranslation } from '../translations';
+import { useTranslation } from '../../translations';
 
 export default function Ueber() {
   const { t } = useTranslation();
