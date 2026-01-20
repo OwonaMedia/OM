@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 right-0 z-[120] transition-all duration-500 ${scrolled ? 'py-4 bg-black/80 backdrop-blur-md border-b border-white/5' : 'py-8'}`}>
+      <header className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${scrolled ? 'py-4 bg-black/80 backdrop-blur-md border-b border-white/5' : 'py-8'}`}>
         <div className="max-w-[1800px] mx-auto px-8 flex justify-between items-center">
           <Link to="/" className="text-white hover:text-white/80 transition-all text-xl md:text-2xl font-light tracking-[0.4em] z-[120] flex items-center gap-1" onClick={closeMenu}>
             <span className="inline-block align-middle" style={{ width: '1.5em', height: '1.5em' }}>

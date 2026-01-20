@@ -2,14 +2,6 @@
 // --- Dictionary ---
 
 const de = {
-                        "menu.close": "Menü schließen ->",
-                      "menu.close": "Menü schließen ->",
-                    "login.title": "Kunden Login",
-                    "login.desc": "Greifen Sie auf Ihr Dashboard, Rechnungen und Projektstatus zu.",
-                    "login.email": "E-Mail Adresse",
-                    "login.password": "Passwort",
-                    "login.btn": "Anmelden",
-                    "login.forgot": "Passwort vergessen?",
                   "cookie.text": "Wir nutzen Cookies, um Ihr Erlebnis zu verbessern. Einige sind essenziell, andere helfen uns bei der Optimierung.",
                   "cookie.accept": "Akzeptieren",
                   "cookie.decline": "Ablehnen",
@@ -222,7 +214,30 @@ const de = {
   "contact.form.details": "Projektbeschreibung",
 
   // Dashboard / Login
-  // ...existing code...
+    "login.title": "Client Login",
+    "login.desc": "Access your dashboard, invoices, and project status.",
+    "login.email": "Email address",
+    "login.password": "Password",
+    "login.btn": "Log in",
+    "login.forgot": "Forgot password?",
+    "login.title": "Connexion client",
+    "login.desc": "Accédez à votre tableau de bord, vos factures et le statut de vos projets.",
+    "login.email": "Adresse e-mail",
+    "login.password": "Mot de passe",
+    "login.btn": "Se connecter",
+    "login.forgot": "Mot de passe oublié ?",
+    "login.title": "Ingia kwa mteja",
+    "login.desc": "Fikia dashibodi yako, ankara na hali ya mradi.",
+    "login.email": "Barua pepe",
+    "login.password": "Nenosiri",
+    "login.btn": "Ingia",
+    "login.forgot": "Umesahau nenosiri?",
+  "login.title": "Kunden Login",
+  "login.desc": "Greifen Sie auf Ihr Dashboard, Rechnungen und Projektstatus zu.",
+  "login.email": "E-Mail Adresse",
+  "login.password": "Passwort",
+  "login.btn": "Anmelden",
+  "login.forgot": "Passwort vergessen?",
   "dash.welcome": "Willkommen zurück",
   "dash.projects": "Meine Projekte",
   "dash.invoices": "Rechnungen",
@@ -236,7 +251,6 @@ const de = {
 };
 
 const en = {
-              "menu.close": "Close menu ->",
             "cookie.text": "We use cookies to improve your experience. Some are essential, others help us optimize.",
             "cookie.accept": "Accept",
             "cookie.decline": "Decline",
@@ -439,13 +453,6 @@ const en = {
 };
 
 const fr = {
-                          "menu.close": "Fermer le menu ->",
-                        "login.title": "Connexion client",
-                        "login.desc": "Accédez à votre tableau de bord, vos factures et le statut de vos projets.",
-                        "login.email": "Adresse e-mail",
-                        "login.password": "Mot de passe",
-                        "login.btn": "Se connecter",
-                        "login.forgot": "Mot de passe oublié ?",
                       "cookie.text": "Nous utilisons des cookies pour améliorer votre expérience. Certains sont essentiels, d'autres nous aident à optimiser.",
                       "cookie.accept": "Accepter",
                       "cookie.decline": "Refuser",
@@ -639,13 +646,6 @@ const fr = {
 };
 
 const sw = {
-                          "menu.close": "Funga menyu ->",
-                        "login.title": "Ingia kwa mteja",
-                        "login.desc": "Fikia dashibodi yako, ankara na hali ya mradi.",
-                        "login.email": "Barua pepe",
-                        "login.password": "Nenosiri",
-                        "login.btn": "Ingia",
-                        "login.forgot": "Umesahau nenosiri?",
                       "cookie.text": "Tunatumia vidakuzi kuboresha matumizi yako. Baadhi ni muhimu, vingine hutusaidia kuboresha.",
                       "cookie.accept": "Kubali",
                       "cookie.decline": "Kataa",

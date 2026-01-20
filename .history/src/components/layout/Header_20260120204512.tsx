@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 right-0 z-[120] transition-all duration-500 ${scrolled ? 'py-4 bg-black/80 backdrop-blur-md border-b border-white/5' : 'py-8'}`}>
+      <header className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${scrolled ? 'py-4 bg-black/80 backdrop-blur-md border-b border-white/5' : 'py-8'}`}>
         <div className="max-w-[1800px] mx-auto px-8 flex justify-between items-center">
           <Link to="/" className="text-white hover:text-white/80 transition-all text-xl md:text-2xl font-light tracking-[0.4em] z-[120] flex items-center gap-1" onClick={closeMenu}>
             <span className="inline-block align-middle" style={{ width: '1.5em', height: '1.5em' }}>
@@ -67,11 +67,6 @@ export default function Header() {
               <Link to="/kontakt" onClick={closeMenu} className="text-white/80 text-lg tracking-widest transition-colors hover:text-[#D4AF37]">{t('menu.contact')}</Link>
           </div>
 
-          {/* Dezente Schließen-Schaltfläche über dem Sprachwechsler */}
-          <button onClick={closeMenu} className="mb-4 text-center text-white/40 hover:text-white text-sm tracking-widest px-2 py-2 bg-transparent">
-            {t('menu.close')}
-          </button>
-
           {/* Language Switcher */}
           <div className="mb-8">
             <div className="text-[10px] text-white/30 uppercase tracking-widest mb-4">Sprache / Language</div>
@@ -91,11 +86,16 @@ export default function Header() {
               ))}
             </div>
           </div>
+          
 
+          
           <div className="mt-auto pt-8">
             <Link to="/login" onClick={closeMenu} className="inline-flex items-center gap-2 text-sm tracking-widest text-white/50 hover:text-white transition-colors border border-white/10 px-6 py-3 rounded hover:border-[#D4AF37]">
               <span>🔒</span> {t('menu.dashboard')}
             </Link>
+            <button onClick={closeMenu} className="w-full mt-6 text-center text-white/60 hover:text-white text-base tracking-widest py-3 border border-white/10 rounded transition-colors hover:border-[#D4AF37]">
+              {t('menu.close')}
+            </button>
           </div>
         </div>
       </nav>
