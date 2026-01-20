@@ -52,8 +52,7 @@ export default function Header() {
 
       {/* Sidebar Menu */}
       <nav 
-        className={`fixed right-0 w-full md:max-w-md h-full bg-[#0a0a0a] z-[115] flex flex-col pt-[96px] md:pt-[112px] p-12 md:p-20 gap-8 transition-transform duration-500 border-l border-white/10 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
-        style={{ top: 0 }}
+        className={`fixed top-0 right-0 w-full md:max-w-md h-full bg-[#0a0a0a] z-[115] flex flex-col p-12 md:p-20 gap-8 transition-transform duration-500 border-l border-white/10 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         {/* Close Button */}
         <button
