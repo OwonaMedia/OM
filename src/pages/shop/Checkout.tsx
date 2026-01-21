@@ -39,7 +39,7 @@ export default function Checkout() {
     setError('');
     // Stripe Checkout Session erstellen
     try {
-      const response = await fetch('http://localhost:4242/create-checkout-session', {
+      const response = await fetch('/api/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -53,7 +53,7 @@ export default function Checkout() {
       });
       const data = await response.json();
       if (!data.id) throw new Error(data.error || 'Stripe error');
-      const stripe = await loadStripe('pk_live_51SQZoXEBCNGNWfiq8SzmEDe2dNw6EffbKtOwQM471c3gcMDC3Ja4Yl1rOPfAeBxZPhTohxo2MVF0sxWTuBtWQGyN005PkTnh0E');
+      const stripe = await loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
       await stripe?.redirectToCheckout({ sessionId: data.id });
     } catch (err: any) {
       setError(err.message || 'Stripe error');
