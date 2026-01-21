@@ -1,0 +1,10 @@
+# Ignore environment files
+api/.env
+.env
+# Node modules
+node_modules/
+api/node_modules/
+# Build output
+dist/
+# Vercel
+.vercel/

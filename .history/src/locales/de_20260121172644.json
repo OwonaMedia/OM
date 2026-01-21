@@ -1,0 +1,11 @@
+{
+  "products.title": "Unsere Produkte",
+  "products.desc": "Entdecken Sie unsere professionellen Lösungen für Web, Automatisierung und digitale Transformation. Jedes Produkt wurde von Experten entwickelt und rechtlich geprüft.",
+  "product.starter.title": "Starter Website",
+  "product.starter.text": "Die ideale Lösung für Gründer, Selbstständige und kleine Unternehmen: Eine moderne, responsive Website mit bis zu 5 Seiten, optimiert für Suchmaschinen und Datenschutz. Enthält Kontaktformular, Basis-Analytics und 1 Jahr Hosting. Rechtlich geprüft und DSGVO-konform.",
+  "product.pro.title": "Pro Business Suite",
+  "product.pro.text": "Für wachsende Unternehmen: Individuelles Design, Animationen, automatisierte Workflows, Blog, Portfolio und Mehrsprachigkeit. Performance-Optimierung, erweiterte SEO und Integration von Drittanbieterdiensten. Alle Inhalte und Prozesse sind rechtlich und technisch geprüft.",
+  "product.enterprise.title": "Enterprise Plattform",
+  "product.enterprise.text": "Für anspruchsvolle Digitalprojekte: Entwicklung individueller Web-Apps, Schnittstellen und API-Integration. Skalierbare Cloud-Infrastruktur, Automatisierung, persönliche Projektbetreuung und höchste Sicherheitsstandards. Alle Lösungen sind auditierbar und rechtlich abgesichert.",
+  "cta.details": "Mehr erfahren"
+}

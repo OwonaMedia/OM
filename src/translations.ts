@@ -338,6 +338,7 @@ const en = {
     // Shop – Products & Services
     // Shop – Cart
     // Shop – Checkout
+    "subs.label": "Ecosystem / Monthly",
     "shop.checkout.title": "Checkout",
     "shop.checkout.info": "Please review your order and enter your contact details.",
     "shop.checkout.name": "Name",
@@ -637,6 +638,7 @@ const fr = {
     // Shop – Produits & Services
     // Shop – Panier
     // Shop – Checkout
+    "subs.label": "Écosystème / Mensuel",
     "shop.checkout.title": "Commander",
     "shop.checkout.info": "Veuillez vérifier votre commande et saisir vos coordonnées.",
     "shop.checkout.name": "Nom",
@@ -937,6 +939,7 @@ const sw = {
     // Shop – Bidhaa & Huduma
     // Shop – Kikapu
     // Shop – Checkout
+    "subs.label": "Mfumo / Kila Mwezi",
     "shop.checkout.title": "Malipo",
     "shop.checkout.info": "Tafadhali kagua agizo lako na weka maelezo yako ya mawasiliano.",
     "shop.checkout.name": "Jina",
