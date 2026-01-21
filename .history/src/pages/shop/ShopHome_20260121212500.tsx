@@ -22,8 +22,6 @@ export default function ShopHome() {
     };
     document.body.appendChild(script);
   }, []);
-
-  return (
     <div className="max-w-6xl mx-auto py-16 px-4">
       <h1 className="text-4xl font-bold mb-8">{t('shop.title')}</h1>
       <p className="mb-10 text-gray-500 text-lg">{t('shop.intro')}</p>
