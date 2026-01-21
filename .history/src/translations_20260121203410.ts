@@ -671,25 +671,6 @@ const en = {
 };
 
 const fr = {
-                    "shop.checkout.firstName": "Prénom",
-                    "shop.checkout.lastName": "Nom",
-                    "shop.checkout.phone": "Téléphone",
-                    "shop.checkout.street": "Rue",
-                    "shop.checkout.houseNumber": "Numéro",
-                    "shop.checkout.zip": "Code postal",
-                    "shop.checkout.city": "Ville",
-                    "shop.checkout.country": "Pays",
-                    "shop.checkout.acceptAGB": "J'accepte les",
-                    "shop.checkout.agbLink": "CGV",
-                    "shop.checkout.acceptPrivacy": "J'accepte la",
-                    "shop.checkout.privacyLink": "Politique de confidentialité",
-                    "shop.checkout.acceptRevocation": "J'ai lu la",
-                    "shop.checkout.revocationLink": "politique de rétractation",
-                    "shop.checkout.newsletterOptin": "Je souhaite recevoir la newsletter (optionnel)",
-                    "shop.checkout.error.required": "Veuillez remplir tous les champs obligatoires.",
-                    "shop.checkout.error.agb": "Veuillez accepter les CGV.",
-                    "shop.checkout.error.privacy": "Veuillez accepter la politique de confidentialité.",
-                    "shop.checkout.error.revocation": "Veuillez confirmer la politique de rétractation.",
                   "menu.home": "Accueil",
   // FAQ
     // Shop – Produits & Services
@@ -991,25 +972,6 @@ const fr = {
 };
 
 const sw = {
-                    "shop.checkout.firstName": "Jina la kwanza",
-                    "shop.checkout.lastName": "Jina la mwisho",
-                    "shop.checkout.phone": "Simu",
-                    "shop.checkout.street": "Mtaa",
-                    "shop.checkout.houseNumber": "Nambari ya nyumba",
-                    "shop.checkout.zip": "Msimbo wa posta",
-                    "shop.checkout.city": "Jiji",
-                    "shop.checkout.country": "Nchi",
-                    "shop.checkout.acceptAGB": "Ninakubali",
-                    "shop.checkout.agbLink": "Masharti na Vigezo",
-                    "shop.checkout.acceptPrivacy": "Ninakubali",
-                    "shop.checkout.privacyLink": "Sera ya Faragha",
-                    "shop.checkout.acceptRevocation": "Nimesoma",
-                    "shop.checkout.revocationLink": "Sera ya Kughairi",
-                    "shop.checkout.newsletterOptin": "Ningependa kupokea jarida (hiari)",
-                    "shop.checkout.error.required": "Tafadhali jaza sehemu zote zinazohitajika.",
-                    "shop.checkout.error.agb": "Tafadhali kubali Masharti na Vigezo.",
-                    "shop.checkout.error.privacy": "Tafadhali kubali Sera ya Faragha.",
-                    "shop.checkout.error.revocation": "Tafadhali thibitisha Sera ya Kughairi.",
                   "menu.home": "Mwanzo",
   // FAQ
     // Shop – Bidhaa & Huduma
