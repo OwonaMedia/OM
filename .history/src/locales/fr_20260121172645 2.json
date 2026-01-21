@@ -1,0 +1,11 @@
+{
+  "products.title": "Nos produits",
+  "products.desc": "Découvrez nos solutions professionnelles pour le web, l'automatisation et la transformation digitale. Chaque produit est développé par des experts et vérifié juridiquement.",
+  "product.starter.title": "Site Starter",
+  "product.starter.text": "La solution idéale pour les créateurs, indépendants et petites entreprises : un site web moderne et responsive jusqu'à 5 pages, optimisé pour le référencement et la protection des données. Formulaire de contact, analyses de base et 1 an d'hébergement inclus. Vérifié juridiquement et conforme au RGPD.",
+  "product.pro.title": "Suite Pro Business",
+  "product.pro.text": "Pour les entreprises en croissance : design personnalisé, animations, workflows automatisés, blog, portfolio et multilingue. Optimisation des performances, SEO avancé et intégration de services tiers. Tous les contenus et processus sont vérifiés juridiquement et techniquement.",
+  "product.enterprise.title": "Plateforme Entreprise",
+  "product.enterprise.text": "Pour les projets digitaux exigeants : développement d'applications web sur mesure, interfaces et intégration d'API. Infrastructure cloud évolutive, automatisation, gestion de projet personnalisée et normes de sécurité maximales. Toutes les solutions sont auditables et juridiquement sécurisées.",
+  "cta.details": "En savoir plus"
+}
