@@ -64,6 +64,20 @@
 				"$tsc"
 			],
 			"group": "build"
+		},
+		{
+			"label": "vite build",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
 		}
 	]
 }

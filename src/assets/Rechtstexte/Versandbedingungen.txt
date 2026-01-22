@@ -1,0 +1,64 @@
+Zahlung und Versand
+
+Es gelten folgende Bedingungen:
+
+Die Lieferung erfolgt im Inland (Deutschland) und in die nachstehenden Länder: Schweiz, USA.
+
+Versandkosten (inklusive gesetzliche Mehrwertsteuer)
+
+Lieferungen im Inland (Deutschland): 
+
+4,99 € Inlands-Versandkosten 
+Lieferungen ins Ausland:
+
+14,99 € pauschal Auslands-Versandkosten 
+
+Bereitstellung von digitalen Inhalten:
+
+
+Für digitale Inhalte (Daten, die in digitaler Form erstellt und bereitgestellt werden) fallen keine Versandkosten an.
+
+Digitale Inhalte werden Ihnen als Datei per E-Mail innerhalb von 24 Stunden nach Vertragsschluss (bei vereinbarter Vorauszahlung nach dem Zeitpunkt Ihrer Zahlungsanweisung) übersandt.
+
+Digitale Inhalte werden Ihnen über einen per E-Mail mitgeteilten Link bereitgestellt.
+Die Versendung dieser E-Mail mit Zugangsdaten zur Bereitstellung der digitalen Inhalte erfolgt innerhalb von 24 Stunden nach Vertragsschluss (bei vereinbarter Vorauszahlung nach dem Zeitpunkt Ihrer Zahlungsanweisung).
+
+Lieferfristen
+
+Soweit im jeweiligen Angebot keine andere Frist angegeben ist, erfolgt die Lieferung der Ware im Inland (Deutschland) innerhalb von 3 - 5 Tagen, bei Auslandslieferungen innerhalb von 5 - 10 Tagen nach Vertragsschluss (bei vereinbarter Vorauszahlung nach dem Zeitpunkt Ihrer Zahlungsanweisung).
+Beachten Sie, dass an Sonn- und Feiertagen keine Zustellung erfolgt.
+Haben Sie Artikel mit unterschiedlichen Lieferzeiten bestellt, wird die Ware in einer gemeinsamen Sendung versandt, sofern wir keine abweichenden Vereinbarungen mit Ihnen getroffen haben. Die Lieferzeit bestimmt sich in diesem Fall nach dem Artikel mit der längsten Lieferzeit den Sie bestellt haben.
+
+Akzeptierte Zahlungsmöglichkeiten
+
+
+Über PayPal Checkout:
+- Zahlung per PayPal
+- Zahlung per PayPal Express
+- Zahlung per Kreditkarte
+- Zahlung per SEPA-Lastschrift
+- Zahlung per "Später bezahlen"
+- Zahlung per Ratenzahlung
+- Zahlung per Rechnung (über Ratepay)
+- Zahlung per Apple Pay
+- Zahlung per Google Pay
+
+Über PayPal:
+- Zahlung per PayPal
+- Zahlung per PayPal Express
+- Zahlung per Kreditkarte
+- Zahlung per SEPA-Lastschrift
+- Zahlung per Ratenzahlung
+
+Über Stripe:
+- Zahlung per Sofortüberweisung (über Klarna)
+- Zahlung per SEPA-Lastschrift (über Klarna)
+- Zahlung per Kreditkarte (über Klarna)
+- Zahlung per Rechnung (über Klarna)
+- Zahlung per Ratenkauf (über Klarna)
+- Zahlung per Kreditkarte
+- Zahlung per Apple Pay
+- Zahlung per Google Pay
+- Zahlung per SEPA-Lastschrift
+- Zahlung per Link
+Bei Fragen finden Sie unsere Kontaktdaten im Impressum.
